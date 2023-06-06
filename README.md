@@ -1,5 +1,8 @@
 ![image](https://github.com/upatrick/API-RickAndMorty/assets/52748492/f6c8e090-5c9b-4a4a-927a-507b4de8de7c)
 
+# Change Log
+- migração para react
+
 # API de Rick and Morty
 
 Este é um projeto de uma página web que utiliza a API de Rick and Morty para buscar e exibir informações sobre os personagens, localizações e episódios da série.
