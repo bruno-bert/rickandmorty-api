@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <section>
+        <header>
+            <div class="header"><img src="/assets/header.png" class="imgHeader" alt=""></div>
+        </header>
+        <p class="h1">API de Rick and Morty</p>
+        <input type="text" placeholder="Pesquise" id="search-input">
+        <i class="bi bi-search" style="margin-left: -30px; color:rgb(8, 95, 27);"  id="search-button" onclick="searchCharacters()"></i>
+    </section>
+    <section id="middle-container">
+        <div id="character-list" class="character-container"></div>
+        <div style="display: flex; justify-content: center; margin: 50px">
+            <button id="prev-page-button" style="display: none; margin-right: 10px">Previous Page</button>
+            <button id="next-page-button" style="display: none; margin-left: 10px">Next Page</button>
+        </div>
+    </section>
+    <section class="container ">
+        <img src="/assets/rick-and-morty-portal.png" alt="" class="imgRM">
+    </section>
+    <section class="bgGren">
+        <footer class="container bgGrenn colorP">
+            <p class="marginP" id="characterCount">PERSONAGENS:XX</p>
+            <p class="marginP" id="locationCount">LOCALIZAÇÕES:XX</p>
+            <p class="marginP" id="episodeCount">EPISÓDIOS:XX</p>
+        </footer>
+        <footer class="footer container colorP">
+            <p>Desenvolvido por: <span style="color: white;">Patrick Dutra</span> em 2023.</p> 
+        </footer>
+    </section>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="/script.js"></script>
+  </body>
+</html>
